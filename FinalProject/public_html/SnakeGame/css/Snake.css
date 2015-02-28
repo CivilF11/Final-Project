@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25-Feb-2015, 12:24:32 PM
+    Author     : Zachary de Boer
+*/
+
+fieldset.options
+{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.options
+{
+    
+}
+
+#snakeScore
+{
+    position: relative;
+    text-align: center;
+    top: -50px;
+    opacity: 0.7;
+    color: grey;
+}
