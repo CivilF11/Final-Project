@@ -4,7 +4,7 @@ Snake Final Project
 This game of snake will make use of JavaScript to implement the game onto an HTML canvas.
 Other HTML elements will be used for inputs for the several options the game will have.
 
-These options include:
+These options include:\n
   Color:
     Snake
     Background
