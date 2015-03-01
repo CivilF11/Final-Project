@@ -14,9 +14,9 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <link rel="stylesheet" href="../css/Base.css">
-        <link rel="stylesheet" href="../css/Body.css">
-        <link rel="stylesheet" href="../css/NavigationBar.css">
+        <link rel="stylesheet" href="../../css/Base.css">
+        <link rel="stylesheet" href="../../css/Body.css">
+        <link rel="stylesheet" href="../../css/NavigationBar.css">
         
         <link rel="stylesheet" href="css/Snake.css">        
         
@@ -60,65 +60,66 @@ and open the template in the editor.
             
             <p id="snakeScore"></p>
 
-            <div id="optionsScreen">
-                <fieldset id="ColourBoard" class="options">
+            
+            <fieldset id="ColourBoard" class="options">
 
-                    <legend>Colours</legend>
+                <legend>Colours</legend>
 
-                    Snake Colour: <input type="color" id="SnakeColour" value="#000000"><br>
-                    Background Colour: <input type="color" id="BackgroundColour" value="#FFFFFF"><br>
-                    Food Colour: <input type="color" id="FoodColour" value="#008000"><br>
-                    Wall Colour: <input type="color" id="WallColour"><br>
+                Snake Colour: <input type="color" id="SnakeColour" value="#000000"><br>
+                Background Colour: <input type="color" id="BackgroundColour" value="#FFFFFF"><br>
+                Food Colour: <input type="color" id="FoodColour" value="#008000"><br>
+                Wall Colour: <input type="color" id="WallColour"><br>
 
-                </fieldset>
-
-
-                <fieldset id="SpeedBoard" class="options">
-
-                    <legend>Speed</legend>
-
-                    <input type="radio" value="75" name="speed" id="SlowSpeed">Slow<br>
-                    <input type="radio" value="50" name="speed" id="MediumSpeed" checked>Medium<br>
-                    <input type="radio" value="25" name="speed" id="FastSpeed">Fast<br>
-
-                </fieldset>
+            </fieldset>
 
 
-                <fieldset id="LevelBoard" class="options">
+            <fieldset id="SpeedBoard" class="options">
 
-                    <legend>Level Select</legend>
+                <legend>Speed</legend>
 
-                    <input type="radio" value="1" name="level" id="LevelOne" checked>Level 1<br>
-                    <input type="radio" value="2" name="level" id="LevelTwo">Level 2<br>
-                    <input type="radio" value="3" name="level" id="LevelThree">Level 3<br>
+                <input type="radio" value="75" name="speed" id="SlowSpeed">Slow<br>
+                <input type="radio" value="50" name="speed" id="MediumSpeed" checked>Medium<br>
+                <input type="radio" value="25" name="speed" id="FastSpeed">Fast<br>
 
-                </fieldset>
+            </fieldset>
 
 
+            <fieldset id="LevelBoard" class="options">
 
-                <fieldset id="ControlBoard" class="options">
+                <legend>Level Select</legend>
 
-                    <legend>Control Schemes</legend>	
+                <input type="radio" value="1" name="level" id="LevelOne" checked>Level 1<br>
+                <input type="radio" value="2" name="level" id="LevelTwo">Level 2<br>
+                <input type="radio" value="3" name="level" id="LevelThree">Level 3<br>
 
-                    <input type="radio" value="Absolute" name="control" id="Absolute">Absolute<br>
-                    <input type="radio" value="Classic" name ="control" id="Classic" checked>Classic<br>
-
-                </fieldset>
+            </fieldset>
 
 
 
-                <fieldset id="BorderBoard" class="options">
+            <fieldset id="ControlBoard" class="options">
 
-                    <legend>Borders</legend>
+                <legend>Control Schemes</legend>	
 
-                    <input type="radio" value="Infinite" name="border" id="Infinite" checked>Open<br>
-                    <input type="radio" value="Closed" name ="border" id="Closed">Closed<br>
+                <input type="radio" value="Absolute" name="control" id="Absolute">Absolute<br>
+                <input type="radio" value="Classic" name ="control" id="Classic" checked>Classic<br>
 
-                </fieldset>
-                <div id="submitButton">
-                    <button type="button" onClick="startGame()" id="StartButton" class="options">Start Game</button>
-                </div>
-            </div>
+            </fieldset>
+
+
+
+            <fieldset id="BorderBoard" class="options">
+
+                <legend>Borders</legend>
+
+                <input type="radio" value="Infinite" name="border" id="Infinite" checked>Open<br>
+                <input type="radio" value="Closed" name ="border" id="Closed">Closed<br>
+
+            </fieldset>
+
+            <!--<div id="submitButton">-->
+                <button type="button" onClick="startGame()" id="StartButton" class="options">Start Game</button>
+            <!--</div>-->
+            
             <h3 class="body">
                 Text Here
             </h3>

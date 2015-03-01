@@ -121,6 +121,9 @@ run = function (game, ctx, w, h, timer)
 
 optionMenu = function()
 {
+    //document.game.ctx.fillSyle("white");
+    //document.game.ctx.fillRect(0,0,500,500);
+    
     var colourControls = document.getElementById("ColourBoard");
     var speedControls = document.getElementById("SpeedBoard");
     var levelControls = document.getElementById("LevelBoard");

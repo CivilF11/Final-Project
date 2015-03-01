@@ -82,7 +82,6 @@ function SnakeGame ()
     };
 
 
-
     this.goNorth = function()
     {
         this.direction = "N";

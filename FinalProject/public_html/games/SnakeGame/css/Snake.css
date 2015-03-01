@@ -7,28 +7,25 @@ and open the template in the editor.
     Created on : 25-Feb-2015, 12:24:32 PM
     Author     : Zachary de Boer
 */
-#optionsScreen
-{
-    width: 500px;
-    position: relative;
-    top: -500px;
-    left: 100px;
-}
+
+
+
 fieldset.options
 {
     position: relative;
-    max-width: 100px;
-    float: left;
+    top: -510px;
+    width: 203px;
+    display: inline;
+    
+    //margin-left: 100px;
+    //margin-right: 250px;
 }
 
-.options
-{
-    
-}
+
 
 #ColourBoard
 {
-    max-width: 500px;
+    width: 440px;
 }
 
 #snakeScore
@@ -38,4 +35,12 @@ fieldset.options
     top: -50px;
     opacity: 0.7;
     color: grey;
+}
+
+#StartButton
+{
+    position: relative;
+    display: block;
+    top: -400px;
+    left: 290px;
 }
