@@ -4,28 +4,34 @@ Snake Final Project
 This game of snake will make use of JavaScript to implement the game onto an HTML canvas.
 Other HTML elements will be used for inputs for the several options the game will have.
 
-These options include:\n
+These options include:
+
   Color:
+  
     Snake
     Background
     Food
     Obstacles
     
   Speed:
+  
     Slow
     Medium
     Fast
     
   Levels:
+  
     Level One
     Level Two
     Level Three
     
   Controls:
+  
     Classic
     Absolute
     
   Borders:
+  
     Infinite
     Closed
     
