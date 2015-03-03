@@ -14,16 +14,24 @@ fieldset.options
 {
     position: relative;
     top: -510px;
-    width: 203px;
+    width: 202px;
     display: inline;
     
-    //margin-left: 100px;
-    //margin-right: 250px;
 }
 
 
 
 #ColourBoard
+{
+    width: 440px;
+}
+
+#SpeedBoard
+{
+    width: 440px;
+}
+
+#LevelBoard
 {
     width: 440px;
 }
@@ -41,6 +49,6 @@ fieldset.options
 {
     position: relative;
     display: block;
-    top: -400px;
+    top: -460px;
     left: 290px;
 }

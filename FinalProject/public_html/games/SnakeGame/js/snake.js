@@ -74,6 +74,7 @@ function SnakeGame ()
         }
 
 
+
         this.snakeLength = 5;
         this.score = 0;
         this.direction = "N";
